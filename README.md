@@ -18,7 +18,7 @@
 
 > _The objective of this project is to create a program to print one line at the time using as reference the `\n` to check new lines._
 
-For detailed information, refer to the [**subject of this project**]().
+For detailed information, refer to the [**subject of this project**](https://github.com/Diogo13Antunes/42Cursus_Get_Next_Line/blob/main/subject.pdf).
 
 ## 🛠️ Download
 
