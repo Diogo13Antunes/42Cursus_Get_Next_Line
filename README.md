@@ -31,4 +31,4 @@ The library is written in C language and thus needs the **`gcc` compiler** and s
 ```shell
 git clone https://github.com/Diogo13Antunes/get_next_line.git
 ```
-OR Download by clicking [**HERE**](https://github.com/Diogo13Antunes/42Cursus_Get_Next_Line.git)
+OR Download by clicking [**HERE**](https://github.com/Diogo13Antunes/42Cursus_Get_Next_Line/archive/refs/heads/main.zip)
