@@ -9,7 +9,7 @@ See the [subject](./subject.pdf) for more information.
 - [What's in it?](#whats-in-it)
   - [Mandatory](#mandatory)
   - [Bonus](#bonus)
-- [Requirements(](#requirements)
+- [Requirements](#requirements)
 - [How to use it?](#how-to-use-it)
 - [How to create a Main for Get Next Line](#how-to-create-a-main-for-get-next-line)
 - [License](#lisence)
