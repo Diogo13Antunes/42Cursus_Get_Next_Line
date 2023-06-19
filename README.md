@@ -72,23 +72,23 @@ rm -rf a.out
 
 > To use this function you need to create a main like this.
 
-<code>
-    #include "get_next_line.h"
-    #include "get_next_line_bonus.h"
-    #include <fcntl.h>
+```c
+#include "get_next_line.h"
+#include "get_next_line_bonus.h"
+#include <fcntl.h>
 
-    int main(void)
-    {
-        int     fd = -1;
-        char    *line;
+int main(void)
+{
+    int     fd = -1;
+    char    *line;
     
-        fd = open([FILENAME], O_RDONLY);
-        line = get_next_line(fd);
-        printf("%s", line);
-        free(line);
-        close (fd);
-    }
-</code>
+    fd = open([FILENAME], O_RDONLY);
+    line = get_next_line(fd);
+    printf("%s", line);
+    free(line);
+    close (fd);
+}
+```
 
 > Do not forget to close the file descriptor (fd) and free the dynamically allocated returned line.
 
