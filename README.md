@@ -26,7 +26,7 @@ See the [subject](./subject.pdf) for more information.
 
 ## Requirements
 
-> To run this functio you need a C compiler and the standard C libraries.
+> To run this function you need a C compiler and the standard C libraries.
 
 ## How to use it?
 
@@ -72,6 +72,7 @@ rm -rf a.out
 
 > To use this function you need to create a main like this.
 
+<code>
     #include "get_next_line.h"
     #include "get_next_line_bonus.h"
     #include <fcntl.h>
@@ -87,6 +88,7 @@ rm -rf a.out
         free(line);
         close (fd);
     }
+</code>
 
 > Do not forget to close the file descriptor (fd) and free the dynamically allocated returned line.
 
